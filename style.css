@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: black;
+}
+
+
+.container {
+    background-image: url(./dark\ mountain.jpeg);
+    /* border: 1px solid black; */
+    height: 750px;
+    margin: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.navbar{
+    height: 40px;
+    background-color: rgb(54, 0, 0);
+    text-align:  center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 999;
+    
+
+}
+
+.navbar a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    margin-top: 10px;
+    display:inline-block ;
+    margin: 8px;
+    margin-left: 20px;
+    
+}
+
+.tittle-box{
+
+    text-align: center;
+    margin: auto;
+    line-height: 750px;
+
+    
+}
+
+.tittle{
+    text-align: center;
+    font-size: 150px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    color: black;
+
+}
+
+.tittle span{
+    color:  rgb(68, 2, 2);
+}
+
+.desc-box{
+
+   
+    width: 700px;
+    background-color: black;
+    position: absolute;
+    top: 550px;
+    left: 100px;
+    border-bottom: 10px red solid;
+
+}
+
+.desc span{
+    color: red;
+}
+
+.desc{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+
+.content{
+    margin-top: 20px;
+}
+
+.image1 img{
+   width: 300px;
+   height: 400px;
+}
+
+.image2 img{
+    width: 300px;
+    height: 400px;
+}
+
+.image3 img{
+    width: 300px;
+    height: 400px;
+}
+
+.image4 img{
+    width: 300px;
+    height: 400px;
+}
+
+.cont-box-1, .cont-box-2, .cont-box-3, .cont-box-4{
+    width: 300px;
+    border: 1px solid black;
+    float: left;
+    margin-left: 65px;
+    margin-top: 20px;
+    box-sizing: content-box;
+}
+
+.tittle-cont-1, .tittle-cont-2, .tittle-cont-3, .tittle-cont-4{
+    font-size: 40px;
+    font-family:cursive;
+    font-weight: bold;
+    color: rgb(131, 8, 8);
+    margin-bottom: 20px;
+    margin-top: 10px;
+
+}
+
+.content-1, .content-2, .content-3, .content-4{
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    border-left: 10px solid red;
+    padding-left: 10px;
+
+}
+
+.footer{
+    margin-top: 50px;
+    height: 40px;
+    background-color:rgb(69, 0, 0) ;
+}
+
+.footer-text {
+    color: red;
+    text-align: center;
+    line-height: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* clear fix */
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
